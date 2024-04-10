@@ -10,4 +10,5 @@ Currently, two official plugins are available:
 
 TECHSTACK USED HERE :-
 REACT 18
+
 TAILWIND CSS 3.3

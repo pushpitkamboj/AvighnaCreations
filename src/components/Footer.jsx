@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 const Footer = () => {
   return (
-    <footer className="bg-red-600 text-white py-8">
+    <footer className="bg-blue-600 text-white py-8">
       <div className="container mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-between">
         <div className="flex flex-col md:flex-row items-center mb-4 md:mb-0">
           <div className="text-center md:text-left">
@@ -46,11 +46,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex justify-center items-center">
-  <a href="#" className="text-white-600 hover:text-black-800">
-    Designed and created by agency name
+  <a href="https://www.linkedin.com/in/pushpit-kamboj-234aa1227/" className="text-white-600 hover:text-black-800">
+    Designed and created by Aspira
   </a>
       </div>
-      <br></br>
+      {/* <br></br> */}
     </footer>
   );
 };

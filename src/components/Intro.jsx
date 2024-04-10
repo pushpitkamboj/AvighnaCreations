@@ -1,4 +1,5 @@
 import React from 'react';
+import BackgroundImage from './assets/3.png'
 
 const Intro = () => {
   return (
@@ -8,16 +9,17 @@ const Intro = () => {
         backgroundImage: `url('https://cdn0.weddingwire.in/article/9179/3_2/1280/jpg/79719-wedding-events-gautam-khullar-lead-image.jpeg')`,
       }}
     >
-      <div className="absolute inset-0 bg-gray-900 bg-opacity-50"></div>
+
+      <div className="absolute inset-0 bg-gray-900 bg-opacity-30"></div>
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white">
         <div className="text-center">
-          <h1 className="text-5xl font-bold mb-4">Welcome to Avighna Creations <br></br> crafting Unforgettable memories</h1>
-          <p className="text-lg mb-8">
+           <h1 className="text-5xl font-bold mb-4">Welcome to Avighna Creations</h1>
+           {/* <p className="text-lg mb-8">
             15+ Years of Experience Crafting Memorable Events in Telangana and Andhra Pradesh: Your One-Stop Destination for Catering and Comprehensive Event Management Services.
-          </p>
+          </p>  */}
           <div className="flex items-center justify-center mb-4">
             <div className="w-4 h-4 bg-red-500 rounded-full mr-2"></div>
-            <span className="text-xl font-semibold">Where Expertise Meets Imagination</span>
+            <span className="text-xl font-semibold">Crafting unforgettable beginnings</span>
             <div className="w-4 h-4 bg-red-500 rounded-full ml-2"></div>
           </div>
           <div className="flex items-center justify-center">

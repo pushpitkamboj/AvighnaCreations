@@ -1,5 +1,5 @@
 import React from 'react';
-import './ContactUsPage.css'
+import { NavLink } from 'react-router-dom';
 const ContactSection = () => {
  return (
    <div className="flex justify-center space-x-8 bg-gray-100 py-8">
@@ -27,9 +27,9 @@ const ContactSection = () => {
            13442. We are here to address your queries and ensure a seamless
            experience.
          </p>
-         <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">
-           Contact Us
-         </button>
+         <NavLink to="/ContactUs" className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">
+          Contact Us
+         </NavLink>
        </div>
      </div>
 
@@ -53,13 +53,14 @@ const ContactSection = () => {
        <div className="text-center">
          <h3 className="text-lg font-bold text-gray-800 mb-2">Email Us</h3>
          <p className="text-gray-600 mb-4">
-           Reach out to info@AvighnaCreations.com for prompt and
+           Reach out to avighnacreations23@gmail.com for prompt and
            comprehensive support on all your event-related inquiries and
            assistance.
          </p>
-         <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">
+         <a className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded"
+            href="mailto:avighnacreations23@gmail.com">
            Email Us
-         </button>
+         </a>
        </div>
      </div>
 

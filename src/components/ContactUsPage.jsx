@@ -3,12 +3,13 @@ import React from 'react';
 const ContactUsPage = () => {
   return (
     <div className="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 rounded-lg p-6 min-h-screen flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+      <p className='text-center text-3xl font-extrabold text-black-900 mb-6 justify-center'>GET IN TOUCH WITH US</p>
       <div className="bg-yellow-500 max-w-7xl mx-auto flex flex-col md:flex-row">
         <div className="md:w-1/2 md:pr-8">
-          <h2 className="text-3xl font-extrabold text-black-900 mb-6">Get in touch with us</h2>
-          <form className="mt-8 space-y-6">
+          {/* <h2 className="text-3xl font-extrabold text-black-900 mb-6 justify-center">Get in touch with us</h2> */}
+          <form className="mt-8 space-y-6 text-center">
             <div>
-              <label htmlFor="fullName" className="sr-only">
+              <label htmlFor="fullName" className="sr-only text-center">
                 Full Name
               </label>
               <input
@@ -30,11 +31,11 @@ const ContactUsPage = () => {
                 type="email"
                 autoComplete="email"
                 placeholder="Email"
-                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-black-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
               />
             </div>
             <div>
-              <label htmlFor="contactNumber" className="sr-only">
+              <label htmlFor="contactNumber" className="sr-only text-balck-900">
                 Contact Number
               </label>
               <input
@@ -63,22 +64,22 @@ const ContactUsPage = () => {
           </form>
         </div>
         <div className="md:w-1/2 md:pl-8 mt-8 md:mt-0">
-          <div className="text-sm font-medium text-gray-700">Contact</div>
-          <div className="mt-2 text-gray-500">
+          <div className="text-sm font-medium text-black-900">Contact</div>
+          <div className="mt-2 text-black-900">
             <p>+91-819 100 4846</p>
             <p>+91-735 152 3841</p>
-            <p>+91-991 772 4737</p>
-            <p>info@Avighna.com</p>
+            {/* <p>+91-991 772 4737</p> */}
+            <p>avighnacreations23@gmail.com</p>
           </div>
-          <div className="mt-4 text-gray-500">
-            <p>10:00 hrs to 18:00 hrs Monday - Saturday GMT +5:30</p>
+          <div className="mt-4 text-black-900">
+            <p>10:00 hrs to 18:00 hrs Monday - Saturday</p>
             <p>Sunday Closed</p>
           </div>
-          <div className="mt-2 text-gray-500">
+          {/* <div className="mt-2 text-black-900">
             <p>+91-945 636 2345</p>
             <p>sales@AvighnaCreations.com</p>
-          </div>
-          <div className="mt-4 text-gray-500">
+          </div> */}
+          <div className="mt-4 text-black-900">
             <p>Avighna Creations</p>
             <p>Kaintura Plaza, Badrinath Road</p>
             <p>lal bagh - 249201 New Delhi</p>

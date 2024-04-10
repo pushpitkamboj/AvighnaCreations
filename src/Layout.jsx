@@ -1,16 +1,19 @@
 import React from "react"
 import { Outlet } from 'react-router-dom'
-import Navbar from "./Navbar/Navbar"
+import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import SocialMedia from "./components/SocialMedia"
+// import SocialHandles from "./components/SocialHandles"
 
 function Layout() {
     return (
       <>
-      <SocialMedia />
+      {/* <SocialHandles /> */}
       <Navbar />
       <Outlet />
+      <SocialMedia />
       <Footer />
+      
       </>
     )
   }

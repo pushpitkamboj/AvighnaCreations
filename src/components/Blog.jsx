@@ -1,4 +1,5 @@
-import exampleimage from './exampleimage.svg'
+import React from 'react'
+import exampleimage from './assets/Logo.png'
 export default function Blog() {
     return (
       <div className="bg-gray-1000">
@@ -8,7 +9,8 @@ export default function Blog() {
               alt="Background"
               className="object-cover w-full h-full"
               height={400}
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD5x-xd-QHlHIrzGgLtnPJ-4L9n2OoNNkU0g&usqp=CAU"
+              // src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD5x-xd-QHlHIrzGgLtnPJ-4L9n2OoNNkU0g&usqp=CAU"
+              src="{exampleimage}"
               style={{
                 aspectRatio: "1440/400",
                 filter: "blur(20px)",
@@ -28,25 +30,25 @@ export default function Blog() {
                   </div>
                   <div className="space-y-2">
                     <h1 className="text-3xl font-extrabold tracking-tight sm:text-5xl sm:tracking-tighter/2">
-                      Taxing Laughter: The Joke Tax Chronicles
+                      Avighna Creations: the best of your memories
                     </h1>
-                    <p className="text-black-500">
+                    {/* <p className="text-black-500">
                       Once upon a time, in a far-off land, there was a very lazy king who spent all day lounging on his
                       throne. One day, his advisors came to him with a problem: the kingdom was running out of money.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
                 <div className="flex items-center justify-center rounded-lg overflow-hidden aspect-video">
                   <img
                     alt="image"
                     className="object-cover w-full h-full"
-                    height={340}
-                    src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD5x-xd-QHlHIrzGgLtnPJ-4L9n2OoNNkU0g&usqp=CAU"
+                    // height={340}
+                    src= {exampleimage}
                     style={{
                       aspectRatio: "600/340",
                       objectFit: "cover",
                     }}
-                    width={600}
+                    // width={600}
                   />
                 </div>
               </div>
@@ -59,7 +61,7 @@ export default function Blog() {
             <article className="prose prose-gray max-w-6xl mx-auto dark:prose-invert">
               <div className="space-y-2 not-prose">
                 <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">
-                  Taxing Laughter: The Joke Tax Chronicles
+                    Avighna creations: the best for your memories
                 </h1>
                 <a href = "www.google.com"><u> link for the blog </u></a>
                 <p className="text-gray-500 dark:text-gray-400">Posted on March 23, 2024</p>

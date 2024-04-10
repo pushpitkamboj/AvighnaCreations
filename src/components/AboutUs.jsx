@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from './assets/Logo.png'
+
 const AboutUs = () => {
   return (
     <div className="flex flex-col items-center mb-8 w-full md:w-1/2 lg:w-full 
@@ -53,11 +54,11 @@ while you soak up every minute of your special day with loved ones.
             <p className="mt-2 text-lg text-gray-300">Successful events</p>
           </div>
           <div className="text-center">
-            <h2 className="text-4xl font-bold text-white">2018</h2>
+            <h2 className="text-4xl font-bold text-white">2023</h2>
             <p className="mt-2 text-lg text-gray-300">Wheels Up!</p>
           </div>
           <div className="text-center">
-            <h2 className="text-4xl font-bold text-white">dwarka east</h2>
+            <h2 className="text-4xl font-bold text-white">Dwarka East</h2>
             <p className="mt-2 text-lg text-gray-300">Built in Delhi</p>
           </div>
         </div>

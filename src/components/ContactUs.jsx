@@ -27,7 +27,7 @@ const ContactSection = () => {
            13442. We are here to address your queries and ensure a seamless
            experience.
          </p>
-         <NavLink to="/ContactUs" className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">
+         <NavLink to="/contactus" className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">
           Contact Us
          </NavLink>
        </div>

@@ -1,11 +1,12 @@
 import React from 'react';
-import BackgroundImage from './assets/3.png'
+import Image from './assets/Logo.png'
 
 const Intro = () => {
   return (
     <div
       className="relative h-screen bg-cover bg-center"
       style={{
+        // backgroundImage: {Image}
         backgroundImage: `url('https://cdn0.weddingwire.in/article/9179/3_2/1280/jpg/79719-wedding-events-gautam-khullar-lead-image.jpeg')`,
       }}
     >
